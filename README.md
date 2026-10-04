@@ -2,7 +2,7 @@
 
 Ini adalah Mini Project 1 dari materi "Pemrograman Web: PHP Fundamental & Data Structure". Proyek ini merupakan purwarupa sistem informasi manajemen produk sederhana yang mendemonstrasikan konsep dasar pemrosesan *server-side*, manajemen data *array multidimensi*, dan desain *modular* pada PHP.
 
-## 🏗️ Struktur Proyek (Arsitektur Desain Konseptual)
+## Struktur Proyek (Arsitektur Desain Konseptual)
 
 Proyek ini mengadopsi prinsip pemisahan logika (*Separation of Concerns*) menjadi tiga lapisan utama:
 
@@ -17,7 +17,7 @@ Proyek ini mengadopsi prinsip pemisahan logika (*Separation of Concerns*) menjad
 3. **Presentation Layer (`index.php`)**
    Lapisan antarmuka pengguna (UI). File ini bertugas merajut file *Data Layer* dan *Processing Layer* menggunakan fungsi `require_once`. Data kemudian dirender secara dinamis ke dalam *layout* tabel HTML menggunakan perulangan `foreach`.
 
-## 🚀 Panduan Instalasi dan Menjalankan Proyek
+## Panduan Instalasi dan Menjalankan Proyek
 
 1. **Persiapan Lingkungan (Environment):**
    Pastikan Anda memiliki *local web server* yang mendukung PHP (seperti XAMPP, MAMP, Laragon, atau PHP Built-in Server).
@@ -29,7 +29,7 @@ Proyek ini mengadopsi prinsip pemisahan logika (*Separation of Concerns*) menjad
    Buka peramban web (browser) dan akses URL proyek Anda, contohnya: 
    `http://localhost/product-information-system/index.php`
 
-## 📚 Konsep PHP Fundamental yang Diterapkan
+##  Konsep PHP Fundamental yang Diterapkan
 
 Proyek ini menjadi wadah praktik langsung dari berbagai materi teori PHP:
 - **Variabel & Tipe Data Array:** Penggunaan *Associative* dan *Multidimensional Array* untuk merepresentasikan skema tabel data.
@@ -38,7 +38,7 @@ Proyek ini menjadi wadah praktik langsung dari berbagai materi teori PHP:
 - **Logic & Conditionals:** Penggunaan `if-statement` untuk memeriksa batas aman stok produk dan merender class/style HTML secara dinamis.
 - **Fungsi (Function):** Penerapan *Single Responsibility Principle* dalam membuat fungsi perhitungan dan logika presentasi.
 
-## 🛠️ Pengembangan Lanjutan (Opsional)
+## Pengembangan Lanjutan (Opsional)
 
 Sebagai bahan latihan dan eksplorasi lanjutan, Anda dapat mengembangkan proyek ini dengan:
 - Menerapkan fungsi bawaan manipulasi string (seperti `strtoupper` untuk ID Produk).
